@@ -7,7 +7,7 @@ cask "betterdisplay" do
       skip "Legacy version"
     end
 
-    depends_on macos: ">= :monterey"
+    depends_on macos: ">= :big_sur"
   end
   on_monterey :or_newer do
     version "2.2.3"
