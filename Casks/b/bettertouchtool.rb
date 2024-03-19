@@ -1,6 +1,6 @@
 cask "bettertouchtool" do
-  version "4.443,44430"
-  sha256 "9b46368dbacfe3869208046b76268f63bfee3ee41508eca37a42d19e5cbeec2b"
+  version "4.454,44540"
+  sha256 "cb3181c035a3623ed86193f1a14ba9f32fe2f3fc51d0ae2b187aa6a4cb9132cd"
 
   url "https://folivora.ai/releases/btt#{version.csv.first}-#{version.csv.second}.zip"
   name "BetterTouchTool"
@@ -25,7 +25,7 @@ cask "bettertouchtool" do
   end
 
   auto_updates true
-  depends_on macos: ">= :high_sierra"
+  depends_on macos: ">= :catalina"
 
   app "BetterTouchTool.app"
 
